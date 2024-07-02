@@ -1,0 +1,11 @@
+name: Storm CMS Content Type Base
+description: Storm CMS Content Type Base
+install:
+  - link
+  - text
+  - diff
+  - quick_node_clone
+config:
+  import:
+    node:
+      - views.view.content

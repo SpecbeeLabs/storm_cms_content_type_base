@@ -1,0 +1,15 @@
+{
+    "name": "specbee/storm_cms_content_type_base",
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Malabya",
+            "email": "malabya@specbee.com"
+        }
+    ],
+    "require": {
+        "drupal/diff": "^2.0@beta",
+        "drupal/quick_node_clone": "^1.18"
+    }
+}
