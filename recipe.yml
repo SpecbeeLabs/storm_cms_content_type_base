@@ -1,11 +1,26 @@
 name: Storm CMS Content Type Base
 description: Storm CMS Content Type Base
+recipes:
+  - core/recipes/tags_taxonomy
 install:
   - link
   - text
   - diff
   - quick_node_clone
+  - media
+  - node
+  - options
+  - taxonomy
+  - type_tray
+  - scheduler
+  - content_moderation
 config:
   import:
     node:
       - views.view.content
+      - core.entity_view_mode.node.full
+      - core.entity_view_mode.node.teaser
+    scheduler:
+      - scheduler.settings
+    metatag:
+      - metatag.metatag_defaults.node
