@@ -10,6 +10,8 @@
     ],
     "require": {
         "drupal/diff": "^2.0@beta",
+        "drupal/type_tray": "^1.2",
+        "drupal/scheduler": "^2.0",
         "drupal/quick_node_clone": "^1.18"
     }
 }
