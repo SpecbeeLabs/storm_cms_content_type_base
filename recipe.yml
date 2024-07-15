@@ -14,6 +14,7 @@ install:
   - quick_node_clone
   - type_tray
   - scheduler
+  - auto_entitylabel
 config:
   import:
     node:
