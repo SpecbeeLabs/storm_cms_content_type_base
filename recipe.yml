@@ -3,18 +3,23 @@ description: Storm CMS Content Type Base
 recipes:
   - core/recipes/tags_taxonomy
   - core/recipes/editorial_workflow
-  - storm_cms_core
 install:
   - link
   - media
   - node
   - options
   - text
+  - auto_entitylabel
   - diff
+  - metatag
+  - metatag_open_graph
+  - metatag_twitter_cards
+  - metatag_views
   - quick_node_clone
   - type_tray
+  - sam
   - scheduler
-  - auto_entitylabel
+  - select2
 config:
   import:
     node:
@@ -33,6 +38,10 @@ config:
     metatag:
       - metatag.metatag_defaults.node
       - metatag.metatag_defaults.global
+      - metatag.metatag_defaults.403
+      - metatag.metatag_defaults.404
+      - metatag.metatag_defaults.front
+      - metatag.settings
   actions:
       node.settings:
         simple_config_update:

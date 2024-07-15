@@ -9,11 +9,14 @@
         }
     ],
     "require": {
-        "drupal/diff": "^2.0@beta",
-        "drupal/quick_node_clone": "^1.18",
-        "drupal/type_tray": "^1.2",
-        "drupal/scheduler": "^2.0",
         "drupal/auto_entitylabel": "^3.2",
-        "specbee/storm_cms_core": "*"
+        "drupal/diff": "^2.0@beta",
+        "drupal/metatag": "^2.0",
+        "drupal/scheduler": "^2.0",
+        "drupal/select2": "^1.15",
+        "drupal/type_tray": "^1.2",
+        "drupal/quick_node_clone": "^1.18",
+        "npm-asset/select2": "^4.1",
+        "drupal/sam": "^1.2"
     }
 }
