@@ -17,6 +17,7 @@
         "drupal/type_tray": "^1.2",
         "drupal/quick_node_clone": "^1.18",
         "npm-asset/select2": "^4.1",
-        "drupal/sam": "^1.2"
+        "drupal/sam": "^1.2",
+        "specbee/storm_cms_media": "*"
     }
 }
