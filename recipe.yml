@@ -11,6 +11,7 @@ install:
   - options
   - text
   - auto_entitylabel
+  - custom_field
   - diff
   - metatag
   - metatag_open_graph
