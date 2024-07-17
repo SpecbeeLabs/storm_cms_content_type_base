@@ -12,6 +12,7 @@ install:
   - text
   - auto_entitylabel
   - diff
+  - maxlength
   - metatag
   - metatag_open_graph
   - metatag_twitter_cards
