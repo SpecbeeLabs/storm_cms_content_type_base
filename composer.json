@@ -19,6 +19,7 @@
         "npm-asset/select2": "^4.1",
         "drupal/sam": "^1.2",
         "specbee/storm_cms_media": "*",
-        "drupal/custom_field": "^3.0@RC"
+        "drupal/custom_field": "^3.0@RC",
+        "drupal/inline_entity_form": "^3.0@RC"
     }
 }

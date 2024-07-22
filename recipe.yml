@@ -13,6 +13,7 @@ install:
   - auto_entitylabel
   - custom_field
   - diff
+  - inline_entity_form
   - metatag
   - metatag_open_graph
   - metatag_twitter_cards
