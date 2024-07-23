@@ -6,13 +6,11 @@ recipes:
   - storm_cms_media
 install:
   - link
-  - media
-  - node
   - options
   - text
   - auto_entitylabel
-  - custom_field
   - diff
+  - field_group
   - inline_entity_form
   - metatag
   - metatag_open_graph
