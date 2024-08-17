@@ -1,6 +1,7 @@
 name: Storm CMS Content Type Base
 description: Storm CMS Content Type Base
 install:
+  - content_moderation
   - link
   - options
   - text
@@ -19,6 +20,8 @@ install:
   - select2
 config:
   import:
+    content_moderation:
+      - views.view.moderated_content
     node:
       - views.view.content
       - core.entity_view_mode.node.full
