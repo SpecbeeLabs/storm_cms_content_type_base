@@ -1,9 +1,5 @@
 name: Storm CMS Content Type Base
 description: Storm CMS Content Type Base
-recipes:
-  - core/recipes/tags_taxonomy
-  - core/recipes/editorial_workflow
-  - storm_cms_media
 install:
   - link
   - options
