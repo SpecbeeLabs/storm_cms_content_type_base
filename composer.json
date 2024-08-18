@@ -16,7 +16,7 @@
         "drupal/inline_entity_form": "^3.0@RC",
         "drupal/metatag": "^2.0",
         "drupal/quick_node_clone": "^1.18",
-        "drupal/rabbit_hole": "^1.0",
+        "drupal/rabbit_hole": "^2.0@alpha",
         "drupal/sam": "^1.2",
         "drupal/scheduler": "^2.0",
         "drupal/select2": "^1.15",
