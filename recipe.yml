@@ -6,6 +6,7 @@ install:
   - options
   - text
   - auto_entitylabel
+  - custom_field
   - diff
   - field_group
   - inline_entity_form
@@ -14,6 +15,7 @@ install:
   - metatag_twitter_cards
   - metatag_views
   - quick_node_clone
+  - rabbit_hole
   - type_tray
   - sam
   - scheduler
@@ -49,3 +51,11 @@ config:
       scheduler.settings:
         simple_config_update:
           hide_seconds: true
+      rabbit_hole.settings:
+        simple_config_update:
+          enabled_entity_types:
+            2: node
+      rabbit_hole.behavior_settings.node.*:
+        simple_config_update:
+          action: display_page
+          allow_override: 1
