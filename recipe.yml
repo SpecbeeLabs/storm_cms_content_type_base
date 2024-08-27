@@ -2,6 +2,7 @@ name: Storm CMS Content Type Base
 description: Storm CMS Content Type Base
 install:
   - content_moderation
+  - layout_builder
   - link
   - options
   - text
@@ -21,6 +22,7 @@ install:
   - sam
   - scheduler
   - select2
+  - smart_trim
 config:
   import:
     content_moderation:

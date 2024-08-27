@@ -21,6 +21,7 @@
         "drupal/sam": "^1.2",
         "drupal/scheduler": "^2.0",
         "drupal/select2": "^1.15",
+        "drupal/smart_trim": "^2.2",
         "drupal/type_tray": "^1.2",
         "npm-asset/select2": "4.0.13",
         "specbee/storm_cms_media": "*"
