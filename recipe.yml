@@ -9,6 +9,7 @@ install:
   - custom_field
   - diff
   - field_group
+  - field_formatter_class
   - inline_entity_form
   - metatag
   - metatag_open_graph
