@@ -48,17 +48,17 @@ config:
       - metatag.metatag_defaults.front
       - metatag.settings
   actions:
-      node.settings:
-        simple_config_update:
-          use_admin_theme: true
-      scheduler.settings:
-        simple_config_update:
-          hide_seconds: true
-      rabbit_hole.settings:
-        simple_config_update:
-          enabled_entity_types:
-            2: node
-      rabbit_hole.behavior_settings.node.*:
-        simple_config_update:
-          action: display_page
-          allow_override: 1
+    node.settings:
+      simple_config_update:
+        use_admin_theme: true
+    scheduler.settings:
+      simple_config_update:
+        hide_seconds: true
+    rabbit_hole.settings:
+      simple_config_update:
+        enabled_entity_types:
+          2: node
+    rabbit_hole.behavior_settings.node.*:
+      simple_config_update:
+        action: display_page
+        allow_override: 1
